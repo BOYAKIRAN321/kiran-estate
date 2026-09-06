@@ -1,118 +1,117 @@
-# Project Title
+# Kiran Estate - Real Estate Platform
 
-A short, powerful description of what your project does. One or two lines max.
+A modern, responsive real estate platform to find, list, and manage properties for sale and rent.
 
-> Example: A lightweight tool to automate daily reports and save 5+ hours per week.
+> 🚀 **Live Demo:** **[https://kiran-esate.vercel.app/](https://kiran-esate.vercel.app/)**
+> 📦 **GitHub:** **[https://github.com/BOYAKIRAN321/kiran-estate](https://github.com/BOYAKIRAN321/kiran-estate)**
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel&logoColor=white)](https://kiran-esate.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/BOYAKIRAN321/kiran-estate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)]()
+
+## 🌐 Live Demo & Links
+
+- **🔴 Live Website:** https://kiran-esate.vercel.app/
+- **💻 GitHub Repository:** https://github.com/BOYAKIRAN321/kiran-estate.git
 
 ## ✨ Features
 
-- 🚀 Fast and lightweight
-- 🔒 Secure and reliable
-- ⚙️ Easy to configure
-- 📱 Responsive / Cross-platform
+- 🏠 Browse properties for sale and rent
+- 🔍 Advanced search and filters
+- 📍 Location-based property listings
+- 🔒 User authentication & authorization
+- ❤️ Save favourite properties
+- 📱 Fully responsive - Mobile & Desktop
+- ⚡ Fast & SEO friendly
 
-## 📸 Demo / Screenshots
+## 📸 Screenshots
 
-| Preview | Description |
-| :--- | :--- |
-| ![demo](https://via.placeholder.com/600x350) | Main dashboard view |
+| Home Page | Property Listing |
+| :---: | :---: |
+| ![Home](https://via.placeholder.com/800x450?text=Kiran+Estate+-+Live+Demo) | ![Listing](https://via.placeholder.com/800x450?text=Property+Listing+Page) |
 
-> Add a GIF or link: [Live Demo](https://your-demo-link.com)
+> Live Preview: https://kiran-esate.vercel.app/
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React / HTML / CSS / Tailwind
-- **Backend:** Node.js / Python / etc.
-- **Database:** MongoDB / MySQL / Firebase
-- **Tools:** Git, VS Code, Docker
+- **Frontend:** React.js / Next.js / Tailwind CSS
+- **Backend:** Node.js / Next.js API Routes
+- **Database:** MongoDB / Firebase
+- **Authentication:** JWT / NextAuth
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-## 📦 Installation
+## 📦 Installation & Setup
 
-Clone the repository:
-
+**1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/BOYAKIRAN321/kiran-estate.git
+cd kiran-estate
 ```
 
-Install dependencies:
-
+**2. Install dependencies**
 ```bash
 npm install
-# or
-pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+**3. Create .env file**
+```env
+MONGODB_URL=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+NEXTAUTH_URL=http://localhost:3000
+```
 
-Run the project locally:
-
+**4. Run locally**
 ```bash
-npm start
-# or
-python main.py
+npm run dev
 ```
+Open http://localhost:3000
 
-Then open `http://localhost:3000` in your browser.
+## 🚀 Deployment
 
-```javascript
-// Example code snippet
-import { myFunction } from './src';
+This project is deployed on Vercel.
 
-myFunction();
+Live Link: **https://kiran-esate.vercel.app/**
+
+To deploy your own:
+```bash
+vercel --prod
 ```
 
 ## 📁 Project Structure
 
 ```
-.
-├── src/              # Source files
-├── public/           # Static assets
+kiran-estate/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable components
+│   ├── pages/       # Next.js pages
+│   ├── styles/      # CSS / Tailwind
+│   └── utils/       # Helper functions
 ├── .gitignore
 ├── package.json
-├── README.md
-└── LICENSE
-```
-
-## 🔧 Environment Variables
-
-Create a `.env` file in the root:
-
-```
-API_KEY=your_api_key_here
-PORT=3000
-DATABASE_URL=your_db_url
+└── README.md
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+1. Fork the project - https://github.com/BOYAKIRAN321/kiran-estate/fork
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit (`git commit -m 'Add NewFeature'`)
+4. Push (`git push origin feature/NewFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**BOYA KIRAN**
+- GitHub: [@BOYAKIRAN321](https://github.com/BOYAKIRAN321)
+- Project Link: [https://github.com/BOYAKIRAN321/kiran-estate](https://github.com/BOYAKIRAN321/kiran-estate)
+- Live Demo: [https://kiran-esate.vercel.app/](https://kiran-esate.vercel.app/)
 
-## 🙏 Acknowledgments
+## 📝 License
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
+Distributed under the MIT License.
 
 ---
-⭐ Star this repo if you found it helpful!
+⭐ **Star this repo if you liked it!** - https://github.com/BOYAKIRAN321/kiran-estate
+🌐 **Visit Live:** https://kiran-esate.vercel.app/
